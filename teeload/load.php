@@ -7,7 +7,7 @@
 		===================================-->
 		<meta charset="UTF-8">
 		
-		<title>Tee Load &middot; Loading Screen</title>
+		<title>Tee Load &middot; BL4CK M3SA SERVERS</title>
 		
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 		
@@ -30,17 +30,18 @@
 			$get = file_get_contents("param.xml");
 			$arr = simplexml_load_string($get);
 			
-			$website = $arr -> web -> website;
+			$website = $arr -> web -> https://steamcommunity.com/groups/blackmesaservers;
 			$store = $arr -> store -> storeurl;
-			$tsip = $arr -> teamspeak -> tsip;
+			$tsip = $arr -> teamspeak -> https://discord.gg/XUfXZG
+;
 			
-			$servername = $arr -> topbar -> servername;
+			$servername = $arr -> topbar -> |DARKRP| BLACK MESA SERVERS |;
 						
-			$slogan = $arr -> tb -> slogan;
+			$slogan = $arr -> tb -> DarkRP por exelencía;
 			
-			$gamemode_dis = $arr -> gamemode_dis -> cnt;
-			$map_dis = $arr -> map_dis -> cnt;
-			$slots_dis = $arr -> slots_dis -> cnt;
+			$gamemode_dis = $arr -> gamemode_dis -> DarkRP;
+			$map_dis = $arr -> map_dis -> rp_evocity_sunshine ;
+			$slots_dis = $arr -> slots_dis -> 32;
 			$website_dis = $arr -> website_dis -> cnt;
 			$store_dis = $arr -> store_dis -> cnt;
 			$ts_dis = $arr -> ts_dis -> cnt;
